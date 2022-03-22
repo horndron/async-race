@@ -1,0 +1,83 @@
+@mixin d-flex
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+
+*
+  box-sizing: border-box
+  max-width: 100%
+  line-height: 1.3
+  letter-spacing: 1px
+
+body
+  color: #fff
+
+.controll-garage
+  max-width: 400px
+
+  input[type="text"]
+    width: 55%
+
+  input[type="color"]
+    width: 50px
+    height: 38px
+    padding: 3px
+
+  .btn
+    min-width: 85px
+
+.car-item
+
+  .controll
+    .btn
+      height: 26px
+      line-height: inherit
+
+    p
+      margin-bottom: 0
+
+  .car-image
+    width: 80px
+    height: auto
+
+  .wrapper-track
+    position: relative
+    border-bottom: 3px dashed #fff
+    background-image: url(./assets/red-flag.png)
+    background-repeat: no-repeat
+    background-size: 39px
+    background-position-x: calc( 100% - 55px )
+    background-position-y: bottom
+
+    .race-track
+      position: relative
+      width: calc( 100% - 76px )
+
+.winners-container
+  .table
+    max-width: 600px
+    border-color: #fff
+
+  th,td
+    text-align: center
+    vertical-align: middle
+    transition: 0.3s
+
+.winner-modal
+  position: fixed
+  left: 50%
+  top: 50%
+  padding: 15px
+  font-size: 1.3em
+  transform: translate(-50%, -50%)
+  color: #ffffff
+  border-radius: 10px
+  box-shadow: 0 0 20px 5px rgba(25, 135, 84, 0.3)
+
+  span
+    font-weight: 600
+
+.sort
+  cursor: pointer
+  text-decoration: underline
