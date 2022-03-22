@@ -1,8 +1,6 @@
 # async-race
 
-| Folder name   | Branch name   |
-| ------------- | ------------- |
-| async-race    | async-race    |
+![image](https://user-images.githubusercontent.com/89828396/159540792-0b59ca43-7791-43ba-aa96-b544880241c1.png)
 
 
 ## Task "Async Race"
